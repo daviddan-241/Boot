@@ -1,0 +1,13 @@
+{
+  "build": {
+    "env": {
+      "HACXGPT_API_KEY": "@hacxgpt_api_key"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/hacxgpt.py"
+    }
+  ]
+}
